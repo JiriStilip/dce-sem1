@@ -1,0 +1,10 @@
+- name: Install custom Python simplest backend in Docker container
+  docker_container:
+    name: simplest-backend
+    hostname: "{{ inventory_hostname }}"
+    image: ghcr.io/jiristilip/dce-simplest-backend:latest
+    state: started
+    restart_policy: unless-stopped
+    pull: yes
+    ports:
+    - "5000:5000"
