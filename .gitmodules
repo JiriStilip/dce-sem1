@@ -1,0 +1,6 @@
+[submodule "external/dce-simplest-backend"]
+	path = external/dce-simplest-backend
+	url = https://github.com/JiriStilip/dce-simplest-backend.git
+[submodule "external/dce-load-balancer"]
+	path = external/dce-load-balancer
+	url = https://github.com/JiriStilip/dce-load-balancer.git
